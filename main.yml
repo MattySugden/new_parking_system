@@ -1,9 +1,0 @@
-runtime: nodejs16  # Replace with the desired runtime version
-env: flex  # Specify the environment (e.g., flex, standard)
-instance_class: F1  # Choose an appropriate instance class
-automatic_scaling:
-  # Configure automatic scaling if needed
-handlers:
-  - url: /  # Define the root URL handler
-    script: server.js  # Replace with the path to your main server file
-    # Add more handlers for specific URL patterns if needed
